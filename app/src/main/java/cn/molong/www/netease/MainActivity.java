@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // 1.0
+
         mTimeView = findViewById(R.id.timeView);
 
         total = length/space;
